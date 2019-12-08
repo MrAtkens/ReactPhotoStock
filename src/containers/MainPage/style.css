@@ -1,0 +1,112 @@
+  body{
+    background: #252525 !important;
+  }
+
+  h1{
+    color: white;
+    text-align: center;
+  }
+
+  .container {
+      position: relative;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .findContainer{
+    display: flex;
+  }
+
+  .findTextField{
+    padding: 10px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 0.5;
+  }
+  
+  .text {
+    color: white;
+    padding: 16px 32px;
+  }
+
+  .modal-6 {
+    -moz-box-shadow: 0 2px 2px #333;
+    -webkit-box-shadow: 0 2px 2px #333;
+    box-shadow: 0 2px 2px #333;
+  }
+  .modal-6 a {
+    border-color: #ddd;
+    color: #999;
+    background: #fff;
+    padding: 10px 15px;
+  }
+  .modal-6 a:hover {
+    color: #E34E48;
+    background-color: #eee;
+  }
+  .modal-6 a.prev {
+    -moz-border-radius: 50px 0 0 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px 0 0 50px;
+    width: 50px;
+    position: relative;
+  }
+  .modal-6 a.next {
+    -moz-border-radius: 0 50px 50px 0;
+    -webkit-border-radius: 0;
+    border-radius: 0 50px 50px 0;
+    width: 50px;
+    position: relative;
+  }
+ 
+  .active a{
+    border-color: #bbb;
+    background: #fff;
+    color: #E34E48 !important;
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25) inset;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25) inset;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25) inset;
+  }
+
+
+
+  .searchContainer {
+    position: relative;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    height: 100px;
+  }
